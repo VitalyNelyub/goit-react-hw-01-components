@@ -1,16 +1,9 @@
+import { Profile } from 'components/Profile/Profile';
+import user from '../../../src/components/Data.json/user.json';
+// import statistic from '../../../src/components/Data.json/data.json';
+// import { Statistic } from 'components/Statistics/Statistics';
+
 export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template. TEST.
-    </div>
-  );
+  return <Profile user={user} />;
+  // return <Statistic />;
 };
