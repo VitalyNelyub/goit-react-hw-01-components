@@ -8,7 +8,6 @@ export const Profile = ({ user }) => {
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </div>
-
       <ul className="stats">
         <li>
           <span className="label">Followers</span>
