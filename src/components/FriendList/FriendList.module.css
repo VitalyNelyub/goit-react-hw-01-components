@@ -1,6 +1,5 @@
 .friends {
   width: 500px;
-  /* background-color: blueviolet; */
   margin: 100px auto;
 }
 
@@ -22,7 +21,6 @@
   display: flex;
   gap: 40px;
   align-items: center;
-  /* justify-content: space-between; */
   padding: 20px;
 }
 

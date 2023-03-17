@@ -18,6 +18,7 @@ export const StatisticList = ({ statistic }) => {
 };
 
 StatisticList.propType = {
-  label: PropTypes.string,
-  percentage: PropTypes.number,
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };
