@@ -10,8 +10,14 @@ import { Transactions } from 'components/Transactions/Transactions';
 export const App = () => {
   return (
     <>
-      <Profile user={user} />
-      <StatisticList statistic={statistic} />
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+      <StatisticList title="Upload stats" statistic={statistic} />
       <FriendsList friends={friends} />
       <Transactions transactions={transactions} />
     </>
